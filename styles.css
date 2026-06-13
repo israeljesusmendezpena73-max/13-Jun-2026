@@ -1,0 +1,71 @@
+body{
+font-family:'Poppins' , sans-serif;
+margin: 0;
+padding: 0;
+background: linearGradient(to bottom #88e3ff #ffed85);
+color:#474747;
+display:flex;
+justify-content:content; 
+align-items: center;
+height: 100vh;
+}
+.infografia{
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 3);
+    width:90% ;
+    max-width: 800px;
+}
+
+h1{
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #474747;
+}
+
+p{
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #34456e;
+}      
+   
+.batallones{
+    display: flex;
+    flex-wrap:wrap ;
+    justify-content: space-around;
+    gap: 20px;   
+}
+    
+
+.batallonboyaca{
+    width: 40%;
+    background: white;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 4px 10px  rgba(0,0, 0, 1);
+    overflow: hidden;
+}
+
+.batallonboyaca img{
+    width: 100%;
+    height: auto;
+    border-bottom: 5px solid #f0f0f0;
+}
+.batallonboyaca h2{
+    margin:100%;
+    font-size: 1.5rem;
+   color: #34456e;
+}
+
+.batallonboyaca.info{
+    padding: 10px;
+    font-size: 1rem;
+    color: #f0f0f0;
+}
+
+.lugar:hover{
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 2)
+}
